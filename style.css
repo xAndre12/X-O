@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    display: none;
 }
 
 .row-1{
@@ -53,4 +54,48 @@ body{
 }
 .right{
     border-right: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+input{
+    background-color: whitesmoke;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+.start{
+    font-size: 30px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+.winningText{
+    margin-top: 100px;
+    display: none;
+}
+.restart{
+    font-size: 30px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    display: none;
+    padding: 10px 80px;
+    margin-top: 20px;
 }

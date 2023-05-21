@@ -149,6 +149,11 @@ bord.forEach((row) => {
         colCheck();
         primaryDiagonal();
         secondaryDiagonal();
+        if(turn === 9){
+          restart.style.display = "flex";
+          winningText.innerHTML = "Draw";
+          winningText.style.display = "flex";
+        }
       }
     });
   });
